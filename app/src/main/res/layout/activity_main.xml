@@ -56,28 +56,24 @@
 
     <Button
         android:id="@+id/button1"
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="LOGIN"
-        android:textSize="10sp"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/til2"
 
 
-        />
+        style="@style/myButtonArriba" />
     <Button
         android:id="@+id/button2"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
         android:text="SIGNUP"
-        android:textSize="10sp"
+
+        android:layout_height="60dp"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/button1"
-
+        style="@style/myButtonAbajo"
         />
 
     <androidx.constraintlayout.widget.Guideline

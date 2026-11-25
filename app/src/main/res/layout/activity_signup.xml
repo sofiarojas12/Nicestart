@@ -9,6 +9,7 @@
 
     tools:context=".Signup">
 
+
     <ImageView
         android:id="@+id/girl"
         android:layout_width="match_parent"
@@ -21,7 +22,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:alpha="0.5"
+        android:alpha="0"
         android:background="@drawable/gradient">
 
     </View>
@@ -44,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/logo"
-        app:startIconDrawable="@drawable/usericon"
+
         >
 
         <EditText
@@ -67,7 +68,7 @@
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/til1"
         app:passwordToggleEnabled="true"
-        app:startIconDrawable="@drawable/keyicon">
+        >
 
         <EditText
             android:id="@+id/password"
@@ -91,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/til2"
-        app:startIconDrawable="@drawable/ic_planet">
+        >
 
         <EditText
             android:id="@+id/email"

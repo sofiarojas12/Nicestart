@@ -5,5 +5,10 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Nicestart" parent="Base.Theme.Nicestart" />
+    <style name="Theme.Nicestart.ActionBar" parent="Theme.Material3.DayNight">
+
+    </style>
+
+
+
 </resources>
